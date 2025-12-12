@@ -10,10 +10,10 @@ const authConfig = {
         password: { label: "Пароль", type: "password" },
       },
       async authorize(credentials) {
-        if (
-          credentials?.username === "хочу" &&
-          credentials?.password === "кушать"
-        ) {
+        const username = credentials?.username?.toString().toLowerCase().trim();
+        const password = credentials?.password?.toString().toLowerCase().trim();
+
+        if (username === "хочу" && password === "кушать") {
           return {
             id: "1",
             name: "User",
