@@ -60,7 +60,7 @@ export default function Dashboard() {
       <div className="container mx-auto px-4 py-8 relative z-10">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-green-800">
-            🌿 Природа
+            🌿 Сходи поешь
           </h1>
           <button
             onClick={() => signOut({ callbackUrl: "/" })}
