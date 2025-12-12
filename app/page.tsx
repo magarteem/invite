@@ -57,7 +57,7 @@ export default function Home() {
       <div className="w-full max-w-md relative z-10">
         <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 md:p-10 border border-green-100">
           <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-display font-bold text-green-800 mb-2">
+            <h1 className="text-4xl md:text-5xl font-display font-bold text-green-800 mb-2 whitespace-nowrap">
               🌿 Сходи поешь
             </h1>
             <p className="text-green-600 text-lg">Войдите, чтобы продолжить</p>
